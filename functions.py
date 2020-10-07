@@ -355,8 +355,8 @@ def plot():
     plt.xticks(feat_mult)
     # plt.xticklabels(feat_mult)
     plt.legend(loc="lower right")
-    plt.xlabel('feature multiplier')
-    plt.ylabel('score')
+    plt.xlabel('Number of cnns')
+    plt.ylabel('Time/[sec]')
     plt.title('Number of CNNs range results')
 
     plt.savefig('/ubc/cs/research/shield/projects/cshen001/CAM_project/{}.jpg'.format('final_plot'), dpi=600)
